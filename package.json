@@ -1,0 +1,28 @@
+{
+   "name": "captchagen",
+   "description": "Captcha generator",
+   "version": "1.2.0",
+   "homepage": "http://github.com/wearefractal/captchagen",
+   "repository": "git://github.com/wearefractal/captchagen.git",
+   "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+   "main": "./index.js",
+   "devDependencies": {
+      "mocha": "*",
+      "should": "*"
+   },
+   "scripts": {
+      "test": "mocha --reporter spec"
+   },
+   "engines": {
+      "node": ">=0.6"
+   },
+   "licenses": [
+      {
+         "type": "MIT",
+         "url": "http://github.com/wearefractal/captchagen/raw/master/LICENSE"
+      }
+   ],
+   "dependencies": {
+      "canvas": "^2.1.0"
+   }
+}
